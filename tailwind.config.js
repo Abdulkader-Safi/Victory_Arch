@@ -9,10 +9,32 @@ export default {
         "./resources/views/**/*.blade.php",
     ],
 
-    theme: {},
+    theme: {
+        colors: {
+            primary: "#0063A6",
+            secondary: "#1F376C",
+            gray: "#E6E9EB",
+            "light-gray": "#F7F8F9",
+            white: "#FFFFFF",
+            red: "##DD4241",
+        },
+    },
 
     daisyui: {
-        themes: ["light", "dark", "cupcake", "nord", "dim"],
+        themes: [
+            {
+                mytheme: {
+                    primary: "#0063A6",
+                    secondary: "#1F376C",
+                    gray: "#E6E9EB",
+                    "light-gray": "#F7F8F9",
+                    white: "#FFFFFF",
+                    red: "##DD4241",
+                },
+            },
+            "dark",
+            "cupcake",
+        ],
     },
 
     plugins: [forms, daisyui],
