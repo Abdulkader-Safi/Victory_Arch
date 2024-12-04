@@ -45,4 +45,18 @@
 
 </header>
 
+<div class="w-full h-1 my-4 bg-red z-50"></div>
+
+<section class="relative container mx-auto min-h-screen">
+  <div class="w-full flex flex-col justify-center items-center">
+    <h2 class="text-4xl text-black">The Journey of <span class="font-bold">"VICTORY"</span></h2>
+
+    <div>
+      <img src="{{asset('img/journey/j1.png')}}" alt="">
+    </div>
+  </div>
+</section>
+
+<div class="w-full h-1 my-4 bg-red z-50"></div>
+
 @endsection
