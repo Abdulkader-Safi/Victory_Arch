@@ -2,8 +2,10 @@
     "private": true,
     "type": "module",
     "scripts": {
+        "start": "composer run dev",
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "build:css": "npx tailwindcss -i ./resources/css/app.css -o ./public/css/tailwind.css --minify"
     },
     "devDependencies": {
         "@tailwindcss/forms": "^0.5.2",
