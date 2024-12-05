@@ -1,7 +1,8 @@
 {{-- Navbar --}}
 <nav x-data="{mobileMenu: false}"
-    class="lg:container fixed top-0 w-full flex flex-col justify-center items-center z-50 h-4 py-10">
-    <div class="w-full flex justify-between items-center px-2 md:px-10 lg:px-0">
+    class="fixed top-0 w-full flex flex-col justify-center items-center z-50 h-4 py-7 lg:py-10">
+    <div class="lg:container w-full flex justify-between items-center px-2 md:px-10 lg:px-0"
+        x-bind:class="mobileMenu ? 'bg-white' : 'bg-[#ffffff00]'">
         <div class="w-full">
             <img src="{{asset('img/logo/va_logo.svg')}}" alt="Victory Arch Logo">
         </div>
@@ -50,7 +51,7 @@
 
     <div class="relative lg:hidden w-full flex justify-between items-center">
         <template x-if="mobileMenu">
-            <div x-show="mobileMenu" class="absolute w-full right-0 left-0 top-3 bg-white px-10 lg:px-0 py-5"
+            <div x-show="mobileMenu" class="absolute w-full right-0 left-0 top-0 bg-white px-2 md:px-10 lg:px-0 py-5"
                 x-data="{ mobileSolutionMenu: false }">
                 <ul class="flex flex-col justify-start items-end gap-4">
                     <li class="text-primary"><a href="#">HOME</a></li>
