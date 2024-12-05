@@ -3,8 +3,8 @@
 @section('body')
 
 <header class="w-full min-h-screen bg-gradient-to-br from-gray via-white to-gray">
-  <section class="relative container mx-auto min-h-screen flex justify-center items-center overflow-hidden">
-    <div class="w-full flex flex-col gap-10 bg-red/30 z-20">
+  <section class="relative lg:container mx-auto min-h-screen flex justify-center items-center overflow-hidden">
+    <div class="container w-full flex flex-col gap-10 bg-red/30 z-20">
       <h2
         class="w-full text-6xl lg:text-6xl xl:text-7xl 2xl:text-[80px] leading-[96px] text-secondary text-center lg:text-start font-bold">
         ARE YOU LOOKING TO TRANSFORM?
@@ -17,14 +17,14 @@
       </p>
 
       <div class="flex flex-row justify-center lg:justify-start items-center gap-5">
-        <a class="btn bg-primary/90 hover:bg-primary focus:ring-1 focus:ring-secondary/50 rounded-lg text-white lg:px-12 lg:py-4 border-0"
+        <a class="btn bg-primary/90 hover:bg-primary focus:ring-1 focus:ring-secondary/50 rounded-lg text-white px-4 py-1 lg:px-12 lg:py-4 border-0"
           href="#">
           Contact Us
         </a>
 
         <a class="btn bg-transparent hover:bg-primary focus:ring-1 focus:ring-secondary/50 rounded-lg text-primary lg:px-12 lg:py-4 border-0 shadow-none"
           href="#">
-          Contact Us
+          Our Work
         </a>
       </div>
     </div>
@@ -33,7 +33,7 @@
       <img src="{{asset('img/logo/globe_logo.svg')}}" class="w-full h-full aspect-square" alt="Victory Arch ">
     </div>
 
-    <div class="absolute lg:hidden w-[200vw] aspect-square overflow-hidden flex justify-center items-center">
+    <div class="absolute lg:hidden h-screen aspect-square overflow-hidden flex justify-center items-center">
       <img src="{{asset('img/logo/globe_logo_2.svg')}}" class="w-full aspect-square" alt="Victory Arch ">
     </div>
 
