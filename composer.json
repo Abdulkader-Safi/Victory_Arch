@@ -8,6 +8,7 @@
     "require": {
         "php": "^8.2",
         "afatmustafa/blade-hugeicons": "^0.0.3",
+        "andreiio/blade-remix-icon": "^3.5",
         "filament/filament": "^3.2",
         "khatabwedaa/blade-css-icons": "^1.4",
         "laravel/framework": "^11.31",

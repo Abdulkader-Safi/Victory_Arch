@@ -22,16 +22,22 @@
           Contact Us
         </a>
 
-        <a class="btn bg-transparent hover:bg-primary focus:ring-1 focus:ring-secondary/50 rounded-lg text-primary lg:px-12 lg:py-4 border-0 shadow-none"
+        <a class="btn bg-transparent hover:bg-primary/50 focus:ring-1 focus:ring-secondary/50 rounded-lg text-primary hover:text-white lg:px-12 lg:py-4 border-0 shadow-none"
           href="#">
           Our Work
         </a>
       </div>
     </div>
 
-    <div class="hidden lg:block w-full aspect-square">
-      <img src="{{asset('img/logo/globe_logo.svg')}}" class="w-full h-full aspect-square" alt="Victory Arch ">
+    <div class="relative hidden lg:block w-full aspect-square overflow-visible">
+      <div id="globe"
+        class="absolute top-0 bottom-0 left-0 right-0 hidden w-full h-full overflow-visible aspect-square lg:flex justify-center items-center z-309">
+      </div>
     </div>
+
+    {{-- <div class="hidden lg:block w-full aspect-square">
+      <img src="{{asset('img/logo/globe_logo.svg')}}" class="w-full h-full aspect-square" alt="Victory Arch ">
+    </div> --}}
 
     <div class="absolute lg:hidden h-screen aspect-square overflow-hidden flex justify-center items-center">
       <img src="{{asset('img/logo/globe_logo_2.svg')}}" class="w-full aspect-square" alt="Victory Arch ">
