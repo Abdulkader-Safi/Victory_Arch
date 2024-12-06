@@ -27,7 +27,7 @@
                         </template>
                     </button>
 
-                    <ul x-show="solutionMenu" x-transition:enter="transition ease-out duration-200"
+                    <ul x-cloak x-show="solutionMenu" x-transition:enter="transition ease-out duration-200"
                         x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
                         x-transition:leave="transition ease-in duration-150"
                         x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
@@ -60,7 +60,7 @@
     <div class="relative lg:hidden w-full flex justify-between items-center">
         <div class="absolute w-full right-0 left-0 top-0 px-2 md:px-10 lg:px-0 py-5"
             x-bind:class="mobileMenu ? 'bg-white' : 'bg-[#ffffff00]'">
-            <ul x-show="mobileMenu" class="w-full flex flex-col justify-end items-end gap-4"
+            <ul x-cloak x-show="mobileMenu" class="w-full flex flex-col justify-end items-end gap-4"
                 x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 scale-95"
                 x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-150"
                 x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95">
@@ -90,7 +90,7 @@
                         <span>SOLUTIONS</span>
                     </button>
 
-                    <ul x-show="mobileSolutionMenu" x-transition:enter="transition ease-out duration-200"
+                    <ul x-cloak x-show="mobileSolutionMenu" x-transition:enter="transition ease-out duration-200"
                         x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
                         x-transition:leave="transition ease-in duration-150"
                         x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
