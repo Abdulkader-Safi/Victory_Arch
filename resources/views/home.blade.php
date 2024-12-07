@@ -31,7 +31,7 @@
 
     <div class="relative hidden lg:block w-full aspect-square overflow-visible">
       <div id="globe"
-        class="absolute top-0 bottom-0 left-0 right-0 hidden w-full h-full overflow-visible aspect-square lg:flex justify-center items-center z-309">
+        class="absolute top-0 bottom-0 left-0 right-0 hidden w-full h-full overflow-visible aspect-square lg:flex justify-center items-center z-30">
       </div>
     </div>
 
@@ -51,18 +51,132 @@
 
 </header>
 
-<div class="w-full h-1 my-4 bg-red z-50"></div>
+<div class="w-full h-1 my-12 bg-red z-50"></div>
 
-<section class="relative lg:container mx-auto min-h-screen">
+<section class="relative lg:container mx-auto">
   <div class="w-full flex flex-col justify-center items-center gap-4">
     <h2 class="text-4xl text-black text-center">The Journey of <span class="font-bold">"VICTORY"</span></h2>
 
-    <div class="container w-full overflow-hidden">
+    <div class="w-full overflow-hidden">
       <img src="{{asset('img/journey/j1.png')}}" alt="" class="w-full aspect-video object-cover">
     </div>
   </div>
 </section>
 
-<div class="w-full h-1 my-4 bg-red z-50"></div>
+<div class="w-full h-1 my-12 bg-red z-50"></div>
+
+<section class="relative lg:container mx-auto">
+  <div class="flex justify-between items-center gap-6">
+    <div class=" w-full flex flex-col justify-center items-center gap-3 pb-3 border-b-2 border-primary">
+      <span class="text-5xl text-black">25</span>
+      <h3 class="text-xl text-black">Years Of Experience</h3>
+    </div>
+
+    <div class=" w-full flex flex-col justify-center items-center gap-3 pb-3 border-b-2 border-primary">
+      <span class="text-5xl text-black">3000</span>
+      <h3 class="text-xl text-black">Clients</h3>
+    </div>
+
+    <div class=" w-full flex flex-col justify-center items-center gap-3 pb-3 border-b-2 border-primary">
+      <span class="text-5xl text-black">1500</span>
+      <h3 class="text-xl text-black">Projects Completed</h3>
+    </div>
+  </div>
+</section>
+
+<div class="w-full h-1 my-12 bg-red z-50"></div>
+
+<section class="relative lg:container mx-auto">
+  <div class="w-full flex flex-col justify-center items-center gap-2">
+    <h2 class="text-4xl text-black text-center">Our <span class="font-bold">Solutions</span></h2>
+    <p class="text-base w-10/12 text-center text-t-gray">
+      Our marketing and sales team follow research results and market studies to find out who needs our solutions the
+      most. With this approach we know that our clients are ambitious organizations looking for success, improvements,
+      upgrade, or security.
+    </p>
+  </div>
+
+  <div class="w-full flex flex-col justify-center items-center gap-12 pt-12">
+    <div class="w-full flex flex-row justify-center items-center gap-5">
+      <div class="w-full flex flex-col justify-center items-start">
+        <img src="{{asset('img/our-solutions/BusinessSolutions.png')}}" alt="" class="w-full h-full">
+      </div>
+
+      <div class="w-full flex flex-col justify-center items-start gap-3">
+        <h3 class="text-5xl">Business Solutions</h3>
+
+        <p class="text-base text-t-gray">
+          We provide powerful solutions that will automate your current workflow and deliver the
+          critical information required by the organization’s owners, decision makers, and responsibility holders
+        </p>
+
+        <a class="btn bg-primary/90 hover:bg-primary rounded-lg text-white px-6 py-4" href="#">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-row-reverse justify-center items-center gap-5">
+      <div class="w-full flex flex-col justify-center items-start">
+        <img src="{{asset('img/our-solutions/HardwareProducts.png')}}" alt="" class="w-full h-full">
+      </div>
+
+      <div class="w-full flex flex-col justify-center items-start gap-3">
+        <h3 class="text-5xl">Hardware Products</h3>
+
+        <p class="text-base text-t-gray">
+          Partnered with the top hardware manufacturers in the industry, we are dedicated to provide the most suitable
+          hardware for your business which will accurately accelerate your enterprise daily operations
+        </p>
+
+        <a class="btn bg-primary/90 hover:bg-primary rounded-lg text-white px-6 py-4" href="#">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-row justify-center items-center gap-5">
+      <div class="w-full flex flex-col justify-center items-start">
+        <img src="{{asset('img/our-solutions/Security.png')}}" alt="" class="w-full h-full">
+      </div>
+
+      <div class="w-full flex flex-col justify-center items-start gap-3">
+        <h3 class="text-5xl">Security</h3>
+
+        <p class="text-base text-t-gray">
+          We provide a wide range of security solutions, from CCTV and ANPR cameras to vehicle tracking and access
+          solutions. Our main objective is to ensure a secure environment for your organization
+        </p>
+
+        <a class="btn bg-primary/90 hover:bg-primary rounded-lg text-white px-6 py-4" href="#">
+          Learn More
+        </a>
+      </div>
+    </div>
+
+    <div class="w-full flex flex-row-reverse justify-center items-center gap-5">
+      <div class="w-full flex flex-col justify-center items-start">
+        <img src="{{asset('img/our-solutions/Infrastructure.png')}}" alt="" class="w-full h-full">
+      </div>
+
+      <div class="w-full flex flex-col justify-center items-start gap-3">
+        <h3 class="text-5xl">Infrastructure</h3>
+
+        <p class="text-base text-t-gray">
+          As part of ensuring the success of our implementations,we provide a unique infrastructure that ensures the
+          optimal efficiency and effectiveness of the solution implemented
+        </p>
+
+        <a class="btn bg-primary/90 hover:bg-primary rounded-lg text-white px-6 py-4" href="#">
+          Learn More
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="w-full min-h-screen"></div>
+
+<div class="w-full h-1 my-12 bg-red z-50"></div>
 
 @endsection
