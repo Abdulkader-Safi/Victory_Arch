@@ -338,7 +338,7 @@
       <img src="{{asset('img/client/9.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
     </div>
     <div class="w-full">
-      <img src="{{asset('img/client/10.png')}}" class="w-full h-ful grayscale hover:grayscale-0l" alt="">
+      <img src="{{asset('img/client/10.png')}}" class="w-full h-ful grayscale hover:grayscale-0" alt="">
     </div>
   </div>
 </section>
