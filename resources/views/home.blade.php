@@ -22,7 +22,7 @@
           Contact Us
         </a>
 
-        <a class="btn bg-transparent hover:bg-primary/50 focus:ring-1 focus:ring-secondary/50 rounded-lg text-primary hover:text-white lg:px-12 lg:py-4 border-0 shadow-none"
+        <a class="btn bg-transparent focus:ring-1 focus:ring-secondary/50 rounded-lg text-primary lg:px-12 lg:py-4 border-0 shadow-none"
           href="#">
           Our Work
         </a>
@@ -179,6 +179,35 @@
 
 <section class="relative lg:container mx-auto">
   <div class="w-full flex flex-col justify-center items-center gap-2">
+    <h2 class="text-4xl text-black text-center">Our <span class="font-bold">Partners</span></h2>
+  </div>
+
+  <div class="w-full grid grid-cols-6 gap-4 pt-12">
+    <div class="w-full">
+      <img src="{{asset('img/partners/1.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/partners/2.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/partners/3.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/partners/4.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/partners/5.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/partners/6.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+  </div>
+</section>
+
+<div class="w-full h-1 my-12 bg-red z-50"></div>
+
+<section class="relative lg:container mx-auto">
+  <div class="w-full flex flex-col justify-center items-center gap-2">
     <h2 class="text-4xl text-black text-center">Get The <span class="font-bold">Right Solution</span></h2>
     <p class="text-base w-10/12 text-center text-t-gray">
       We will help a client's problems to develop the products they have with high quality
@@ -274,6 +303,46 @@
   </div>
 </section>
 
+<div class="w-full h-1 my-12 bg-red z-50"></div>
+
+<section class="relative lg:container mx-auto">
+  <div class="w-full flex flex-col justify-center items-center gap-2">
+    <h2 class="text-4xl text-black text-center">Our <span class="font-bold">Clients</span></h2>
+  </div>
+
+  <div class="w-full grid grid-cols-5 gap-4 pt-12">
+    <div class="w-full">
+      <img src="{{asset('img/client/1.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/2.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/3.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/4.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/5.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/6.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/7.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/8.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/9.png')}}" class="w-full h-full grayscale hover:grayscale-0" alt="">
+    </div>
+    <div class="w-full">
+      <img src="{{asset('img/client/10.png')}}" class="w-full h-ful grayscale hover:grayscale-0l" alt="">
+    </div>
+  </div>
+</section>
 
 <div class="w-full min-h-screen"></div>
 
