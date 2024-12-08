@@ -1,5 +1,5 @@
 {{-- Navbar --}}
-<nav x-data="{solutionMenu: true, mobileMenu: true, mobileSolutionMenu: true}"
+<nav x-data="{solutionMenu: false, mobileMenu: false, mobileSolutionMenu: false}"
     class="fixed top-0 w-full flex flex-col justify-center items-center z-50 h-4 py-7 lg:py-10">
     <div class="lg:container w-full flex justify-between items-center px-2 md:px-10 lg:px-0"
         x-bind:class="mobileMenu ? 'bg-white lg:bg-[#ffffff00]' : 'bg-[#ffffff00]'">
