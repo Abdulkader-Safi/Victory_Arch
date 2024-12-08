@@ -175,6 +175,106 @@
   </div>
 </section>
 
+<div class="w-full h-1 my-12 bg-red z-50"></div>
+
+<section class="relative lg:container mx-auto">
+  <div class="w-full flex flex-col justify-center items-center gap-2">
+    <h2 class="text-4xl text-black text-center">Get The <span class="font-bold">Right Solution</span></h2>
+    <p class="text-base w-10/12 text-center text-t-gray">
+      We will help a client's problems to develop the products they have with high quality
+    </p>
+  </div>
+
+  <div class="w-full grid grid-cols-3 gap-4 pt-12">
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-users-round') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Increase Productivity
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        Our solutions enable organizations to achieve the highest level of productivity possible through automation
+      </p>
+    </div>
+
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-history') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Speed Up Performance
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        Integration between hardware and software is the secret of success
+      </p>
+    </div>
+
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-notebook-pen') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Make Right Decisions
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        With our security solutions and reporting features, organizational management can follow up on details they need
+        to make the right decision
+      </p>
+    </div>
+
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-hammer') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Support & Maintenance
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        Our support team of engineers and programmers are dedicated to the success of your business
+      </p>
+    </div>
+
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-settings') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Complete Turnkey
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        We will save you from the hassle of disintegration by providing both hardware and software during implementation
+      </p>
+    </div>
+
+    <div
+      class="w-full aspect-square bg-bg-gray-primary hover:bg-bg-secondary rounded-lg flex flex-col justify-center items-center gap-4 p-6 duration-300 group">
+      <span
+        class="text-bg-secondary group-hover:text-light-gray rounded-full bg-bg-gray-secondary group-hover:bg-bg-primary w-40 h-40 p-6 duration-300">
+        {{ svg('lucide-star') }}
+      </span>
+      <h3 class="font-bold text-2xl text-bg-secondary group-hover:text-light-gray duration-300">
+        Create Success
+      </h3>
+      <p class="w-full text-base text-center text-bg-secondary group-hover:text-light-gray duration-300">
+        All of what we provide from security, IT solutions, hardware and infrastructure is aimed to help managements
+        achieve their objectives and succeed
+      </p>
+    </div>
+  </div>
+</section>
+
+
 <div class="w-full min-h-screen"></div>
 
 <div class="w-full h-1 my-12 bg-red z-50"></div>
