@@ -29,20 +29,19 @@
       </div>
     </div>
 
-    <div class="relative hidden lg:block w-full aspect-square overflow-visible">
+    {{-- <div class="relative hidden lg:block w-full aspect-square overflow-visible">
       <div id="globe"
         class="absolute top-0 bottom-0 left-0 right-0 hidden w-full h-full overflow-visible aspect-square lg:flex justify-center items-center z-30">
       </div>
-    </div>
-
-    {{-- <div class="hidden lg:block w-full aspect-square">
-      <img src="{{asset('img/logo/globe_logo.svg')}}" class="w-full h-full aspect-square" alt="Victory Arch ">
     </div> --}}
+
+    <div class="hidden lg:block w-full aspect-square">
+      <img src="{{asset('img/logo/globe_logo.svg')}}" class="w-full h-full aspect-square" alt="Victory Arch ">
+    </div>
 
     <div class="absolute lg:hidden h-screen aspect-square overflow-hidden flex justify-center items-center">
       <img src="{{asset('img/logo/globe_logo_2.svg')}}" class="w-full aspect-square" alt="Victory Arch ">
     </div>
-
 
     <div class="absolute w-full bottom-10 flex justify-center text-primary animate-bounce">
       @svg('hugeicons-mouse-scroll-01')

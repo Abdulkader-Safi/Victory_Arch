@@ -3,10 +3,12 @@ import "./bootstrap";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
+console.log("Hello World from app.js");
+
 const canvas = document.getElementById("globe");
 const loader = new GLTFLoader();
 const scene = new THREE.Scene();
-const ambientLight = new THREE.AmbientLight(0xffffff, 3);
+const ambientLight = new THREE.AmbientLight(0xffffff, 5);
 scene.add(ambientLight);
 
 const renderer = new THREE.WebGLRenderer({
@@ -26,7 +28,7 @@ renderer.setSize(canvas.offsetWidth * 0.9, canvas.offsetHeight * 0.9);
 canvas.appendChild(renderer.domElement);
 
 loader.load(
-    "img/3d/globe4.glb",
+    "img/3d/globe.glb",
     function (gltf) {
         globe = gltf.scene;
         scene.add(globe);
