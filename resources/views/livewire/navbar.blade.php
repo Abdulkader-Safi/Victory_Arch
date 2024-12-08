@@ -1,8 +1,8 @@
 {{-- Navbar --}}
-<nav x-data="{solutionMenu: false, mobileMenu: false, mobileSolutionMenu: false}"
+<nav x-data="{solutionMenu: true, mobileMenu: true, mobileSolutionMenu: true}"
     class="fixed top-0 w-full flex flex-col justify-center items-center z-50 h-4 py-7 lg:py-10">
     <div class="lg:container w-full flex justify-between items-center px-2 md:px-10 lg:px-0"
-        x-bind:class="mobileMenu ? 'bg-white' : 'bg-[#ffffff00]'">
+        x-bind:class="mobileMenu ? 'bg-white lg:bg-[#ffffff00]' : 'bg-[#ffffff00]'">
         <div class="w-full">
             <img src="{{asset('img/logo/va_logo.svg')}}" alt="Victory Arch Logo">
         </div>
@@ -15,7 +15,7 @@
 
                 <li class="text-primary relative">
                     <button @click="solutionMenu = !solutionMenu" @click.away="solutionMenu = false"
-                        class="flex justify-center items-center gap-2">
+                        class="flex justify-center items-center gap-1">
                         <span>SOLUTIONS</span>
 
                         <template x-if="!solutionMenu">
@@ -31,7 +31,7 @@
                         x-transition:enter-start="opacity-0 scale-95" x-transition:enter-end="opacity-100 scale-100"
                         x-transition:leave="transition ease-in duration-150"
                         x-transition:leave-start="opacity-100 scale-100" x-transition:leave-end="opacity-0 scale-95"
-                        class="absolute w-[250px] bg-white shadow-md rounded-lg">
+                        class="absolute w-[250px] bg-white flex flex-col gap-3 p-3 rounded-lg">
                         <li class="w-full text-primary"><a href="#">Business Solutions</a></li>
                         <li class="w-full text-primary"><a href="#">Hardware Products</a></li>
                         <li class="w-full text-primary"><a href="#">Security</a></li>
@@ -59,7 +59,7 @@
 
     <div class="relative lg:hidden w-full flex justify-between items-center">
         <div class="absolute w-full right-0 left-0 top-0 px-2 md:px-10 lg:px-0 py-5"
-            x-bind:class="mobileMenu ? 'bg-white' : 'bg-[#ffffff00]'">
+            x-bind:class="mobileMenu ? 'bg-white lg:bg-[#ffffff00]' : 'bg-[#ffffff00]'">
             <ul x-cloak x-show="mobileMenu" class="w-full flex flex-col justify-end items-end gap-4"
                 x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 scale-95"
                 x-transition:enter-end="opacity-100 scale-100" x-transition:leave="transition ease-in duration-150"
